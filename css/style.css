@@ -1,0 +1,41 @@
+body
+{
+background-color: black;
+}
+p
+{
+    color: rgb(171, 171, 171);
+}
+.card
+{
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    width: 100%;
+}
+nav
+{
+    background-color: blueviolet;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 30px;
+}
+h1
+{
+    color: rgb(220, 220, 220);
+}
+.jolan
+{
+    color:blueviolet;
+}
+h2
+{
+    color: rgb(171, 171, 171);
+    align: center;
+}
+.card
+{
+  width: 100%;
+}
