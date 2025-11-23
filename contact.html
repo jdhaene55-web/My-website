@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl-BE">
 <head>
-  <!DOCTYPE html>
-<html lang="nl-BE">
-<head>
   <!-- Required meta tags -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,20 +22,18 @@
 <body>
     <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-icon" href="#"><img src="C:\Users\jdhae\Documents\WebTechnologie\Labo07\assets\images\Logo (1).png" height="30px" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <a class="navbar-icon" href="#"><img src="C:\Users\jdhae\Documents\WebTechnologie\Deelopdracht3\assets\images\Logo (1).png" height="30px" alt=""></a>
+
+
+      <ul class="navbar-nav me-auto m-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active m-3" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="contact.html">Contact</a>
+          <a class="nav-link active m-3" href="contact.html">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="portfolio.html">portfolio</a>
+          <a class="nav-link active m-3" href="portfolio.html">portfolio</a>
         </li>
         </li>
         
@@ -47,23 +42,44 @@
   </div>
 </nav>
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-  </div>
-</div>
+<div class="container pt-1">
 
-<div id='container'>
- <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR936kxkL3CDGYOfTwzxYl8nAZ_KE3GzXk6GQ&s'/>
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem pariatur dicta delectus possimus deleniti magni exercitationem maiores fugiat, iste explicabo.</p>
-</div>
+  <div class="rij p-3">
+
+      <main class="col-md-12">
+        <section class="row">
+          <article class="card col-12 mb-5">
+            <h1><section class="jolann">Contacteer mij!</h1></section>
+          </article>
+             <section class="row">
+          <article class="card col-12 mb-3">
+            
+
+<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <div class="form-group">
+          <label for="name">Naam:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Onderwerp:</label>
+          <input type="text" class="form-control" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Bericht:</label>
+          <textarea class="form-control" rows="10" id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 
 
-
+          </article>
+            
 </body>
 </html>
